@@ -38,12 +38,17 @@
   --text-fs-1000: 3.75rem;
 
   /* screens */
-  --breakpoint-md: 560px;
-  --breakpoint-lg: 760px;
+  --breakpoint-md: 35rem;
+  --breakpoint-lg: 45rem;
 }
 
 @layer base {
   body {
-    @apply font-fira overflow-x-hidden;
+    @apply font-outfit overflow-x-hidden bg-brown-700 text-white leading-normal tracking-normal;
   }
+}
+
+@utility hero-bg {
+  background-image: url('/hero-bg.jpg');
+  @apply bg-no-repeat bg-center bg-cover;
 }
