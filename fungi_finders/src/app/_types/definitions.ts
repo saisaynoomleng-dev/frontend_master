@@ -8,7 +8,7 @@ export type BoundedProps = {
 
 // Subtitle
 export type SubtitleProps = {
-  as: 'h3';
+  as?: 'h3';
   children: React.ReactNode;
   className?: string;
 };
@@ -23,7 +23,7 @@ export type TitleProps = {
 
 // paragraph
 export type ParagraphProps = {
-  as: 'p';
+  as?: 'p';
   children: React.ReactNode;
   className?: string;
 };

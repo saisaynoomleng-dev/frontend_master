@@ -10,7 +10,7 @@ const Bounded = ({
   return (
     <Comp
       className={clsx(
-        `mx-auto py-5`,
+        `mx-auto py-10 px-5 space-y-5`,
         width === 'wide' && 'max-w-[1130px]',
         width === 'compact' && 'max-w-[760px]',
         width === 'small' && 'max-w-[560px]',

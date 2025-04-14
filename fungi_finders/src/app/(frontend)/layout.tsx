@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 import '../globals.css';
+import { SanityLive } from '@/sanity/lib/live';
+import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'Fungi Finders',
@@ -11,5 +13,11 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <main>{children}</main>;
+  return (
+    <main>
+      {children}
+      <SanityLive />
+      <Footer />
+    </main>
+  );
 }
