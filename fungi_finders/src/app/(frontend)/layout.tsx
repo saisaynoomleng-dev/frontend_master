@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
-import './globals.css';
-import { fira, outfit } from './_lib/font';
+import '../globals.css';
 
 export const metadata: Metadata = {
   title: 'Fungi Finders',
@@ -12,9 +11,5 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body className={`${fira.variable} ${outfit.variable}`}>{children}</body>
-    </html>
-  );
+  return <main>{children}</main>;
 }
