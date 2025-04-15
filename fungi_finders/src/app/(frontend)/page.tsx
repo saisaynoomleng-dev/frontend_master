@@ -1,6 +1,7 @@
 import Bounded from '@/components/Bounded';
 import CallToAction from '@/components/CallToAction';
 import Paragraph from '@/components/Paragraph';
+import { SlideInRightEffect } from '@/components/ScrollTriggers';
 import Subtitle from '@/components/Subtitle';
 import Title from '@/components/Title';
 import { urlFor } from '@/sanity/lib/image';
@@ -77,10 +78,16 @@ export default async function Home() {
         </div>
       </Bounded>
 
-      <Bounded width="small" className="bg-green-600 text-center min-w-full">
-        <Title as="h2" size="lg">
-          Start your <span className="text-brand-500">Foraging Adventure!</span>
-        </Title>
+      <Bounded
+        width="small"
+        className="bg-green-600 text-center min-w-full overflow-hidden"
+      >
+        <SlideInRightEffect>
+          <Title as="h2" size="lg">
+            Start your{' '}
+            <span className="text-brand-500">Foraging Adventure!</span>
+          </Title>
+        </SlideInRightEffect>
         <Paragraph>
           Whether you&apos;re seeking a deeper connection with nature, a new
           outdoor hobby, or simply love the idea of finding your own food,
