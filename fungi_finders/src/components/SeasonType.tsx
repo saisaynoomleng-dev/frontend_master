@@ -1,4 +1,3 @@
-import { MUSHROOMS_QUERYResult } from '@/sanity/types';
 import clsx from 'clsx';
 import React from 'react';
 

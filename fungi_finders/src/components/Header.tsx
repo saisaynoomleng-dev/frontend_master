@@ -45,7 +45,6 @@ const Header = () => {
         )}
         role="navigation"
         aria-label="Main Menu"
-        aria-expanded={navOpen}
       >
         {links.map((link: NavLinkProps) => (
           <Navlink

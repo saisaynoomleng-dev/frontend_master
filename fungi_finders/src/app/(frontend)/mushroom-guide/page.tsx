@@ -9,11 +9,7 @@ import { sanityFetch } from '@/sanity/lib/live';
 import { MUSHROOMS_QUERY } from '@/sanity/lib/queries';
 import Image from 'next/image';
 
-const MushroomGuide = async ({
-  searchParams,
-}: {
-  searchParams: Promise<{ season?: string; type?: string }>;
-}) => {
+const MushroomGuide = async () => {
   const { data: mushrooms } = await sanityFetch({ query: MUSHROOMS_QUERY });
 
   return (

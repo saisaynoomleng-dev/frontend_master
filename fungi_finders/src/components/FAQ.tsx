@@ -12,7 +12,7 @@ const FAQ = () => {
       </Title>
 
       <div className="grid lg:grid-cols-3 lg:grid-rows-3 gap-5">
-        <div className="lg:col-start-1 lg:row-start-1 lg:col-span-1 lg:row-span-2 bg-brown-600 rounded-lg p-4 space-y-3">
+        <div className="lg:col-start-1 lg:row-start-1 lg:col-span-1 lg:row-span-2 bg-brown-600 rounded-lg p-4 pb-0 space-y-3">
           <div>
             <Image
               src="/start-foraging-1.png"
@@ -27,7 +27,7 @@ const FAQ = () => {
           <div className="flex flex-col gap-3">
             <Subtitle>What do i need to start mushroom foraging?</Subtitle>
             <Paragraph className="text-fs-300 text-justify">
-              You'll need a local field guide, a sharp knife or scissors, a
+              You&apos;ll need a local field guide, a sharp knife or scissors, a
               basket or mesh bag for collecting, and paper bags for separating
               specimens. Bring a small brush for cleaning, wear sturdy boots,
               and carry a GPS device or compass to track your location. A camera
@@ -41,11 +41,11 @@ const FAQ = () => {
             <Subtitle>How can I identify edible mushrooms?</Subtitle>
             <Paragraph className="text-fs-300 text-justify">
               Learn from experienced foragers and reliable guidebooks – never
-              rely on apps alone. Study each mushroom's specific features like
-              cap shape, gill structure, stem characteristics, and spore prints.
-              Start with easily identifiable species that have no poisonous
-              lookalikes, and never eat anything unless you're completely
-              certain of its identification.
+              rely on apps alone. Study each mushroom&apos;s specific features
+              like cap shape, gill structure, stem characteristics, and spore
+              prints. Start with easily identifiable species that have no
+              poisonous lookalikes, and never eat anything unless you&apos;re
+              completely certain of its identification.
             </Paragraph>
           </div>
 
@@ -124,10 +124,10 @@ const FAQ = () => {
             <Paragraph className="text-fs-300 text-justify">
               Look in deciduous forests, especially near oak and maple trees,
               and in damp, shaded areas. Fallen logs and dead trees are often
-              productive spots. Only forage on public lands where it's allowed,
-              and always check local regulations. Remember to get permission for
-              private property and keep your best locations private to prevent
-              over-harvesting.
+              productive spots. Only forage on public lands where it&apos;s
+              allowed, and always check local regulations. Remember to get
+              permission for private property and keep your best locations
+              private to prevent over-harvesting.
             </Paragraph>
           </div>
         </div>
