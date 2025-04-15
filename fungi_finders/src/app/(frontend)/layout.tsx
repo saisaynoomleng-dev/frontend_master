@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import '../globals.css';
 import { SanityLive } from '@/sanity/lib/live';
 import Footer from '@/components/Footer';
+import Header from '@/components/Header';
 
 export const metadata: Metadata = {
   title: 'Fungi Finders',
@@ -15,6 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <main>
+      <Header />
       {children}
       <SanityLive />
       <Footer />

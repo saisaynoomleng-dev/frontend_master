@@ -27,3 +27,11 @@ export type ParagraphProps = {
   children: React.ReactNode;
   className?: string;
 };
+
+// nav links
+export type NavLinkProps = {
+  name: string;
+  url: string;
+  onClick?: (event: React.MouseEvent<HTMLAnchorElement>) => void;
+  className?: string;
+};
